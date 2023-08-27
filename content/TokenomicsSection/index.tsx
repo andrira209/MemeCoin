@@ -7,7 +7,10 @@ export const TokenomicsSection = () => {
       <div className="flex justify-center gap-12 px-4 py-8 xs:flex-col">
         <ToolTipPieChart data={[
           { title: "Airdrop", value: 2, color: "#E38627" },
-          { title: "Owner", value: 98, color: "#C13C37" }
+          { title: "Private Sale", value: 10, color: "#C13C37" }
+          { title: "Presale", value: 8, color: "#C13C37" }
+          { title: "Liquidity", value: 8, color: "#C13C37" }
+          { title: "Marketing", value: 8, color: "#C13C37" }
         ]} />
         <div className="grid grid-cols-1 p-2 xs:grid-cols-2 place-items-center">
           <div className="flex flex-col gap-2">
